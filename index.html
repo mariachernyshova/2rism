@@ -5,9 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2rism - travel</title>
+    <link rel="stylesheet" href="./libs/custom-select/custom-select.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container container--header">
+            <nav class="nav">
+                <a href="#" class="logo">
+                    <img src="./img/logo.svg" alt="2rism">
+                </a>
+
+                <ul class="nav-list">
+                    <li class="nav-list__item">
+                        <a href="" class="nav-list__link nav-list__link--active">Home</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="" class="nav-list__link">Hotels</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="" class="nav-list__link">Restaurants</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="" class="nav-list__link">Tours</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="" class="nav-list__link">Destinations</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="" class="nav-list__link">Activities</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="" class="nav-list__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="user">
+                    <div class="user__content">
+                        <span class="user__greeting">Holla,<br></span>
+                    
+                        <span class="user__name">Ales Nesetril</span>
+                    </div>
+                    <div class="user__avatar">
+                        <img src="./img/user.jpg" alt="Avatar">
+                    </div>
+                </div>
+            </nav>
+            <div class="header__content">
+                <h1 class="header__title">
+                    Discover the most engaging places
+                </h1>
+
+                <button class="button">
+                    <img src="./img/icons/global.svg" alt="Global">
+                    Discover on 3D Globe
+                </button>
+                
+            </div>
+            <form action="" class="header__form form">
+                <div class="form__input form__input--location">
+                    <label for="location" class="label">Location</label> <br>
+                    <select class="select" name="" id="location">
+                        <option value="all">Explore nearby destinations</option>
+                        <option value="1">option 1</option>
+                        <option value="2">option 2</option>
+                        <option value="3">option 3</option>
+                    </select>
+                </div>
+                <div class="form__input form__input--activity">
+                    <label for="activity" class="label">Activity</label> <br>
+                    <select class="select" name="" id="activity">
+                        <option value="all">All Activities</option>
+                        <option value="1">option 1</option>
+                        <option value="2">option 2</option>
+                        <option value="3">option 3</option>
+                    </select>
+                </div>
+                <div class="form__input form__input--when">
+                    <label for="when" class="label">When</label> <br>
+                    <select class="select" name="" id="when">
+                        <option value="all">Choose a Date</option>
+                        <option value="1">option 1</option>
+                        <option value="2">option 2</option>
+                        <option value="3">option 3</option>
+                    </select>
+                </div>
+                <div class="form__input form__input--guests">
+                    <label for="guests" class="label">Guests</label> <br>
+                    <select class="select" name="" id="guests">
+                        <option value="all">1 guest</option>
+                        <option value="1">option 1</option>
+                        <option value="2">option 2</option>
+                        <option value="3">option 3</option>
+                    </select>
+                </div>
+
+                <button class="button-search">
+                    <img src="./img/icons/search.svg" alt="search">
+                    Search
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <script src="./libs/custom-select/custom-select.min.js" type="text/javascript"></script>
+    <script src="./scripts/script.js" type="text/javascript"></script>
 </body>
 </html>
