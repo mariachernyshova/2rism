@@ -12,6 +12,15 @@ html, body {
 }
 
 /* HEADER */
+
+.container--header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
 .header {
     height: 800px;
     padding-top: 31px;
@@ -20,20 +29,11 @@ html, body {
     background-color: #000000;
     background-image: url("../img/header-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 
     border-radius: 0 0 54px 54px;
 
     color: #FFFFFF;
-}
-
-.container--header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    height: 100%;
 }
 
 .header a {
@@ -134,7 +134,7 @@ html, body {
 
 .button {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     column-gap: 10px;
 
     height: 72px;
@@ -156,7 +156,8 @@ html, body {
 
 .form {
     display: flex;
-    width: 1140px;
+    /* width: 1140px; */
+    width: 100%;
     height: 88px;
     padding: 8px;
 
@@ -185,7 +186,6 @@ html, body {
     position: absolute;
     width: 24px;
     height: 24px;
-    
     
     left: 16px;
     top: 24px;
